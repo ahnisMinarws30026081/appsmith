@@ -1,0 +1,2 @@
+INSERT INTO categories (name,parentcategory_name,content,page_title,page_keyword,page_description,image,category_display,status)
+VALUES ({{Form1.data.Input1}},{{Form1.data.Select1}},{{Form1.data.RichTextEditor1}},{{Form1.data.Input2}},{{Form1.data.Input3}},{{Form1.data.Input4}},{{FilePicker1.files[0].data}},{{Form1.data.Select2}},{{Form1.data.Select3}});

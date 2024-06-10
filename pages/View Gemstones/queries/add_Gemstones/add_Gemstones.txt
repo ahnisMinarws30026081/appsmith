@@ -1,0 +1,2 @@
+INSERT INTO gemstones (name,cut,size,shape,color,stone_carat_weight,price_per_carat,price_per_stone,image)
+VALUES ({{Form2.data.Input8}},{{Form2.data.Input9}},{{Form2.data.Input10}},{{Form2.data.Input11}},{{Form2.data.Select2}},{{Form2.data.Input12}},{{Form2.data.Input13}},{{Form2.data.Input14}},{{FilePicker2.files[0].data}});

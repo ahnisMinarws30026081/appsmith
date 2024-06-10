@@ -1,0 +1,2 @@
+DELETE FROM accessories
+WHERE id={{Table1.triggeredRow.id}};

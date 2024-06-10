@@ -1,0 +1,2 @@
+INSERT INTO labours (name,total_cost)
+VALUES ({{Form2.data.Input3}},{{Form2.data.Input4}});

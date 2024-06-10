@@ -1,0 +1,2 @@
+DELETE FROM stone_settings
+WHERE id={{Table1.triggeredRow.id}}

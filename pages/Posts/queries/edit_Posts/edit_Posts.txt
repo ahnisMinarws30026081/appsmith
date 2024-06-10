@@ -1,0 +1,11 @@
+UPDATE posts 
+SET title={{Form1.data.Input1}},
+quote={{Form1.data.Input2}},
+summary={{Form1.data.Input3}},
+description={{Form1.data.RichTextEditor1}},
+category={{Form1.data.Select4}},
+tags={{Form1.data.Select1}},
+author={{Form1.data.Select2}},
+image={{FilePicker1.files[0].data}},
+status={{Form1.data.Select3}}
+WHERE id={{Table1.triggeredRow.id}};

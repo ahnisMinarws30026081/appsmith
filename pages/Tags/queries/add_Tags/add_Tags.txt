@@ -1,0 +1,2 @@
+INSERT INTO tags (title,status)
+VALUES ({{createForm.data.Input2}},{{createForm.data.Select2}});

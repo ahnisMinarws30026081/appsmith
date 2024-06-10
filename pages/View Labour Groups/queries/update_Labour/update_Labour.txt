@@ -1,0 +1,4 @@
+UPDATE labours 
+SET name={{Form1.data.Input1}},
+total_cost={{Form1.data.Input2}}
+WHERE id={{Table1.triggeredRow.id}}

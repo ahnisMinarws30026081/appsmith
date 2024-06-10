@@ -1,0 +1,2 @@
+DELETE FROM gemstones
+WHERE id = {{Table1.triggeredRow.id}};

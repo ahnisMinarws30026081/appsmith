@@ -1,0 +1,2 @@
+DELETE FROM coupons
+WHERE id={{Table1.triggeredRow.id}};

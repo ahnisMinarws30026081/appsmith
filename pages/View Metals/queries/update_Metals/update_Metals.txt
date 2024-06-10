@@ -1,0 +1,5 @@
+UPDATE metals
+SET name={{Form2.data.Input1}},
+price_per_gram={{Form2.data.Input2}},
+status={{Form2.data.Select1}}
+WHERE id={{Metals.triggeredRow.id}}

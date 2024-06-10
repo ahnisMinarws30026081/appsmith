@@ -1,0 +1,4 @@
+UPDATE stone_settings
+SET name={{editForm.data.Input3}},
+price_per_stone={{editForm.data.Input4}}
+WHERE id={{Table1.triggeredRow.id}}

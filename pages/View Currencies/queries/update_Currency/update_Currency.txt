@@ -1,0 +1,5 @@
+UPDATE currencies 
+SET name={{editForm.data.currencyName}},
+conversion_rate={{editForm.data.conversionRate}},
+symbol={{editForm.data.currencySymbol}}
+WHERE id={{Table1.triggeredRow.id}};

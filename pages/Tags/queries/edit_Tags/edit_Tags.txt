@@ -1,0 +1,4 @@
+UPDATE tags 
+SET title={{Form1.data.Input1}},
+status={{Form1.data.Select1}}
+WHERE id={{Table1.triggeredRow.id}};

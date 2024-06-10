@@ -1,0 +1,2 @@
+INSERT INTO currencies (name,conversion_rate,symbol)
+VALUES ({{createForm.data.c_currencyName}},{{createForm.data.c_conversionRate}}.{{createForm.data.c_symbol}});

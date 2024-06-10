@@ -1,0 +1,2 @@
+DELETE FROM posts
+WHERE id = {{Table1.triggeredRow.id}};

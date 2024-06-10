@@ -1,0 +1,11 @@
+UPDATE gemstones
+SET name={{Form1.data.Input1}},
+cut={{Form1.data.Input2}},
+size={{Form1.data.Input3}},
+shape={{Form1.data.Input4}},
+stone_carat_weight={{Form1.data.Input5}},
+price_per_carat={{Form1.data.Input6}},
+price_per_stone={{Form1.data.Input7}},
+color={{Form1.data.Select1}},
+image={{FilePicker1.files[0].data}}
+WHERE id={{Table1.triggeredRow.id}}

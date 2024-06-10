@@ -1,0 +1,2 @@
+INSERT INTO stone_settings (name,price_per_stone)
+VALUES ({{createForm.data.Input1}},{{createForm.data.Input2}});

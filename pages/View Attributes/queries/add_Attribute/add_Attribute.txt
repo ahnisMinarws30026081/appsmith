@@ -1,0 +1,2 @@
+INSERT INTO attributes (name)
+VALUES ({{Form2.data.Input2}})

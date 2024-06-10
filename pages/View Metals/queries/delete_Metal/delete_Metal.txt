@@ -1,0 +1,2 @@
+DELETE FROM metals
+WHERE id = {{Metals.triggeredRow.id}}

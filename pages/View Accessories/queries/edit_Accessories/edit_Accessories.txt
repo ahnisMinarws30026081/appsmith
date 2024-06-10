@@ -1,0 +1,11 @@
+UPDATE accessories
+SET type={{editForm.data.accessoryType}},
+silver_weight={{editForm.data.silverWeight}},
+silver_value={{editForm.data.silverValue}},
+labour_charges={{editForm.data.labourCharges}},
+labour_value={{editForm.data.labourValue}},
+making_charges={{editForm.data.makingCharges}},
+lock={{editForm.data.lock}},
+value={{editForm.data.value}},
+total_cost={{editForm.data.totalValue}}
+WHERE id = {{Table1.triggeredRow.id}};

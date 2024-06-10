@@ -1,0 +1,2 @@
+INSERT INTO posts (title,summary,description,quote,photo,tags,status)
+VALUES ({{Form2.data.Input4}},{{Form2.data.Input6}},{{Form2.data.RichTextEditor2}},{{Form2.data.Input5}},{{FilePicker2.files[0].data}},{{Form2.data.Select6}},{{Form2.data.Select8}});

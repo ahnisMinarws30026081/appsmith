@@ -1,0 +1,2 @@
+INSERT INTO coupons (code,type,value,status) 
+VALUES ({{Form1.data.Input1}},{{Form1.data.Select1}},{{Form1.data.Input2}},{{Form1.data.Select2}});

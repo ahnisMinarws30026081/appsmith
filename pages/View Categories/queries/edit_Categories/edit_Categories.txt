@@ -1,0 +1,2 @@
+UPDATE 	categories (name,parentcategory_name,content,page_title,page_keyword,page_description,image,category_display,status)
+VALUES ({{editForm.data.Input1}},{{editForm.data.Select1}},{{editForm.data.RichTextEditor1}},{{editForm.data.Input2}},{{editForm.data.Input3}},{{editForm.data.Input4}},{{FilePicker1.files[0].data}},{{editForm.data.Select2}},{{editForm.data.Select3}});

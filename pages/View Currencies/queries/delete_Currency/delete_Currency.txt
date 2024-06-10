@@ -1,0 +1,2 @@
+DELETE FROM currencies
+WHERE id={{Table1.triggeredRow.id}};

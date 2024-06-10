@@ -1,0 +1,84 @@
+{
+  "pages": [
+    {
+      "id": "View Attributes",
+      "isDefault": true
+    },
+    {
+      "id": "View Metals",
+      "isDefault": false
+    },
+    {
+      "id": "View Gemstones",
+      "isDefault": false
+    },
+    {
+      "id": "View Categories",
+      "isDefault": false
+    },
+    {
+      "id": "View Labour Groups",
+      "isDefault": false
+    },
+    {
+      "id": "View Stone Setting Costs",
+      "isDefault": false
+    },
+    {
+      "id": "View Accessories",
+      "isDefault": false
+    },
+    {
+      "id": "View Currencies",
+      "isDefault": false
+    },
+    {
+      "id": "View Products",
+      "isDefault": false
+    },
+    {
+      "id": "Add Categories",
+      "isDefault": false
+    },
+    {
+      "id": "Coupon",
+      "isDefault": false
+    },
+    {
+      "id": "Tags",
+      "isDefault": false
+    },
+    {
+      "id": "Customer Queries",
+      "isDefault": false
+    },
+    {
+      "id": "Posts",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {}
+  },
+  "color": "#F5D1D1",
+  "icon": "single-person",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

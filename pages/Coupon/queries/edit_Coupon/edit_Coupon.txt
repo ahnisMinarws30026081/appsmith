@@ -1,0 +1,6 @@
+UPDATE coupons
+SET code={{Form2.data.Input3}},
+type={{Form2.data.Select3}},
+value={{Form2.data.Input4}},
+status={{Form2.data.Select4}}
+WHERE id={{Table1.triggeredRow.id}};

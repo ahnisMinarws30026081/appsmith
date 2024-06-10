@@ -1,0 +1,2 @@
+INSERT INTO metals (name,price_per_gram,status)
+VALUES ({{Form1.data.Input1}},{{Form1.data.Input2}},{{Form1.data.Select1}})

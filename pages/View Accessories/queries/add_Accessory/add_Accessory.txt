@@ -1,2 +1,2 @@
-INSERT INTO accessories (type,silver_weight,silver_value,labour_charges,labour_value,making_charges,lock,value,total_cost)
+INSERT INTO accessories (type,silver_weight,silver_value,labour_charges,labour_value,making_charges,`lock`,`value`,total_cost)
 VALUES ({{createForm.data.c_accessoryType}},{{createForm.data.c_silverWeight}},{{createForm.data.c_silverValue}},{{createForm.data.c_labourCharges}},{{createForm.data.c_labourValue}},{{createForm.data.c_makingCharges}},{{createForm.data.c_lock}},{{createForm.data.c_value}},{{createForm.data.c_totalValue}});

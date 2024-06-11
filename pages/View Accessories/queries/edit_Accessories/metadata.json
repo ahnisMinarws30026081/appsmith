@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE accessories\nSET type={{editForm.data.accessoryType}},\nsilver_weight={{editForm.data.silverWeight}},\nsilver_value={{editForm.data.silverValue}},\nlabour_charges={{editForm.data.labourCharges}},\nlabour_value={{editForm.data.labourValue}},\nmaking_charges={{editForm.data.makingCharges}},\nlock={{editForm.data.lock}},\nvalue={{editForm.data.value}},\ntotal_cost={{editForm.data.totalValue}}\nWHERE id = {{Table1.triggeredRow.id}};",
+      "body": "UPDATE accessories\nSET type={{editForm.data.accessoryType}},\nsilver_weight={{editForm.data.silverWeight}},\nsilver_value={{editForm.data.silverValue}},\nlabour_charges={{editForm.data.labourCharges}},\nlabour_value={{editForm.data.labourValue}},\nmaking_charges={{editForm.data.makingCharges}},\n`lock`='{{editForm.data.lock}}',\n`value`='{{editForm.data.value}}',\ntotal_cost={{editForm.data.totalValue}}\nWHERE id = {{Table1.triggeredRow.id}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

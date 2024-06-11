@@ -1,1 +1,1 @@
-SELECT * FROM queries LIMIT 10;
+SELECT * FROM products;

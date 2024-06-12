@@ -12,8 +12,7 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "defaultOptionValue"},
-        {"key": "sourceData"}
+        {"key": "defaultOptionValue"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
@@ -49,7 +48,7 @@
     "parentColumnSpace": 6.5126953125,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{get_Metals_Status.data.map( (obj) =>{ return  {'label': obj.status, 'value': obj.status } })}}",
+    "sourceData": "[\n  {\n    \"label\": \"Active\",\n    \"value\": \"active\"\n  },\n  {\n    \"label\": \"Inactive\",\n    \"value\": \"inactive\"\n  }\n]",
     "key": "9iwupw7erv",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

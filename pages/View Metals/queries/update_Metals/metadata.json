@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE metals\nSET name={{Form2.data.Input1}},\nprice_per_gram={{Form2.data.Input2}},\nstatus={{Form2.data.Select1}}\nWHERE id={{Metals.triggeredRow.id}}",
+      "body": "UPDATE metals\nSET name={{Form2.data.Input3}},\nprice_per_gram={{Form2.data.Input4}},\n`status`={{Form2.data.Select2}}\nWHERE id={{Metals.triggeredRow.id}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Form2.data.Input1",
-      "Form2.data.Input2",
-      "Form2.data.Select1",
+      "Form2.data.Input3",
+      "Form2.data.Input4",
+      "Form2.data.Select2",
       "Metals.triggeredRow.id"
     ],
     "userSetOnLoad": false,

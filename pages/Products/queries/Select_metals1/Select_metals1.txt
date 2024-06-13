@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  metals
+WHERE
+  name LIKE '%{{Select1.filterText}}%'

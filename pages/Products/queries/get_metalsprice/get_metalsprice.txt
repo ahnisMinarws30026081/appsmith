@@ -1,0 +1,1 @@
+SELECT price_per_gram FROM metals;

@@ -1,43 +1,39 @@
 {
   "pages": [
     {
-      "id": "View Attributes",
+      "id": "Attributes",
       "isDefault": true
     },
     {
-      "id": "View Metals",
+      "id": "Metals",
       "isDefault": false
     },
     {
-      "id": "View Gemstones",
+      "id": "Gemstones",
       "isDefault": false
     },
     {
-      "id": "View Categories",
+      "id": "Categories",
       "isDefault": false
     },
     {
-      "id": "View Labour Groups",
+      "id": "Labour Groups",
       "isDefault": false
     },
     {
-      "id": "View Stone Setting Costs",
+      "id": "Stone Setting",
       "isDefault": false
     },
     {
-      "id": "View Accessories",
+      "id": "Accessories",
       "isDefault": false
     },
     {
-      "id": "View Currencies",
+      "id": "Currencies",
       "isDefault": false
     },
     {
-      "id": "View Products",
-      "isDefault": false
-    },
-    {
-      "id": "Add Categories",
+      "id": "Products",
       "isDefault": false
     },
     {

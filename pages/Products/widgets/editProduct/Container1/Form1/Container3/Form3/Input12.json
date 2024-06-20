@@ -13,7 +13,7 @@
         {"key": "defaultText"}
     ],
     "labelStyle": "",
-    "inputType": "TEXT",
+    "inputType": "NUMBER",
     "isDisabled": true,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -67,6 +67,7 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
+    "shouldAllowAutofill": false,
     "iconAlign": "left",
     "defaultText": "{{(Input10.text)*(Input11.text)}}",
     "minDynamicHeight": 4

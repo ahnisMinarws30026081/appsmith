@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  accessories
+WHERE
+  type LIKE '%{{Select8.filterText}}%'

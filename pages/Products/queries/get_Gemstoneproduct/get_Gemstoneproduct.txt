@@ -1,1 +1,1 @@
-SELECT * FROM gemstone_product ;
+SELECT gemstone_id,product_id,stone_profit_percent,no_of_stones FROM gemstone_product  WHERE product_id={{Table1.triggeredRow.id}};

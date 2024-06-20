@@ -13,7 +13,7 @@
         {"key": "defaultText"}
     ],
     "labelStyle": "",
-    "inputType": "TEXT",
+    "inputType": "NUMBER",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -67,6 +67,7 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 32,
     "maxDynamicHeight": 9000,
+    "shouldAllowAutofill": false,
     "iconAlign": "left",
     "defaultText": "{{get_Gemstoneproduct.data[Table1.triggeredRow.id].no_of_stones}}",
     "minDynamicHeight": 4

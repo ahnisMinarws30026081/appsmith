@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  labours
+WHERE
+  name LIKE '%{{Select9.filterText}}%'

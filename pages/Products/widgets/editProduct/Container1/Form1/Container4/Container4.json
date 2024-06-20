@@ -7,13 +7,13 @@
     "isCanvas": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.dcc052e58db911c4c8955c200f4bcf5c.svg",
     "displayName": "Container",
-    "topRow": 111,
+    "topRow": 108,
     "searchTags": [
         "div",
         "parent",
         "group"
     ],
-    "bottomRow": 152,
+    "bottomRow": 144,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
         "widgetName": "Canvas8",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 410,
+        "bottomRow": 360,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -98,10 +98,10 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 110,
     "responsiveBehavior": "fill",
-    "originalTopRow": 111,
+    "originalTopRow": 108,
     "borderRadius": "0px",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 152,
+    "originalBottomRow": 144,
     "minDynamicHeight": 10
 }

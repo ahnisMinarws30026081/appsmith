@@ -13,7 +13,7 @@
         {"key": "defaultText"}
     ],
     "labelStyle": "",
-    "inputType": "TEXT",
+    "inputType": "NUMBER",
     "isDisabled": true,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -67,7 +67,8 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
+    "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{get_Gemstones.data[get_Gemstoneproduct.data[Table1.triggeredRow.id].gemstone_id].price_per_stone}}",
+    "defaultText": "{{get_gemstones.data[get_Gemstoneproduct.data[Table1.triggeredRow.id].gemstone_id].price_per_stone}}",
     "minDynamicHeight": 4
 }

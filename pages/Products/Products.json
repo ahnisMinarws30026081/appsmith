@@ -36,9 +36,9 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Products_get_categoryproduct",
-              "name": "get_categoryproduct",
-              "confirmBeforeExecute": true,
+              "id": "Products_get_Stonesetting",
+              "name": "get_Stonesetting",
+              "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
@@ -46,16 +46,16 @@
           ],
           [
             {
-              "id": "Products_get_Gemstoneproduct",
-              "name": "get_Gemstoneproduct",
+              "id": "Products_get_Gemstonesname",
+              "name": "get_Gemstonesname",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Products_get_Gemstones",
-              "name": "get_Gemstones",
+              "id": "Products_get_gemstones",
+              "name": "get_gemstones",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -63,6 +63,26 @@
             }
           ],
           [
+            {
+              "id": "Products_Select_attributes1",
+              "name": "Select_attributes1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select7.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_Attributeproduct",
+              "name": "get_Attributeproduct",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.triggeredRow.id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Products_get_Categories",
               "name": "get_Categories",
@@ -70,9 +90,71 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_Categoryproducts",
+              "name": "get_Categoryproducts",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.triggeredRow.id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_gemstoneprice",
+              "name": "get_gemstoneprice",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select4Copy.selectedOptionValue",
+                "Select3Copy.selectedOptionValue",
+                "Select2Copy.selectedOptionValue",
+                "Select5Copy.selectedOptionLabel"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_gemstonesize",
+              "name": "get_gemstonesize",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select3Copy.selectedOptionValue",
+                "Select2Copy.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_metalsprice",
+              "name": "get_metalsprice",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
             }
           ],
           [
+            {
+              "id": "Products_Select_accessories1",
+              "name": "Select_accessories1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select8.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_Select_labours1",
+              "name": "Select_labours1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select9.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Products_Select_metals1",
               "name": "Select_metals1",
@@ -84,11 +166,70 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Products_get_metalsprice",
-              "name": "get_metalsprice",
-              "confirmBeforeExecute": true,
+              "id": "Products_get_gemstonecut",
+              "name": "get_gemstonecut",
+              "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "Select2Copy.selectedOptionLabel"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_gemstonecutedit",
+              "name": "get_gemstonecutedit",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select2.selectedOptionLabel"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Products_get_Gemstoneproduct",
+              "name": "get_Gemstoneproduct",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.triggeredRow.id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_gemstoneshape",
+              "name": "get_gemstoneshape",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select4Copy.selectedOptionValue",
+                "Select3Copy.selectedOptionValue",
+                "Select2Copy.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_gemstoneshapeedit",
+              "name": "get_gemstoneshapeedit",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select3.selectedOptionLabel",
+                "Select2.selectedOptionLabel",
+                "Select4.selectedOptionLabel"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_get_gemstonesizeedit",
+              "name": "get_gemstonesizeedit",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select3.selectedOptionLabel",
+                "Select2.selectedOptionLabel"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

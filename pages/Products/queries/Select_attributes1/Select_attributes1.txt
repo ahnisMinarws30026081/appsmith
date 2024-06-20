@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  attributes
+WHERE
+  name LIKE '%{{Select7.filterText}}%'

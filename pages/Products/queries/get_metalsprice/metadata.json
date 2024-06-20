@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT price_per_gram FROM metals;",
+      "body": "SELECT id,price_per_gram FROM metals;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -33,7 +33,7 @@
     "messages": [],
     "jsonPathKeys": [],
     "userSetOnLoad": false,
-    "confirmBeforeExecute": true,
+    "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
     "createdAt": "2024-06-13T07:36:02Z"

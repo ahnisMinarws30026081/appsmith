@@ -99,7 +99,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1718261206995,
-    "primaryColumnId": "product_sequence",
+    "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 38,
@@ -914,7 +914,7 @@
         "customColumn1": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal(editProduct.name);}}",
+            "onClick": "{{showModal(editProduct.name).then(() => {\n  get_Attributeproduct.run();\n  get_Categoryproducts.run();\n});}}",
             "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

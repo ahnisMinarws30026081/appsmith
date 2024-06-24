@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton1Copy",
-    "onClick": "{{closeModal(editProductCopy.name).then(() => {\n  resetWidget(\"Form1\", true);\n});}}",
+    "onClick": "{{closeModal(editProductCopy.name).then(() => {\n  resetWidget(\"Form1Copy\", true);\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",

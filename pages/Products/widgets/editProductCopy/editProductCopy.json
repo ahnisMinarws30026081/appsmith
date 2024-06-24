@@ -21,6 +21,7 @@
     "minHeight": 2990,
     "animateLoading": true,
     "parentColumnSpace": 1,
+    "dynamicTriggerPathList": [{"key": "onClose"}],
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
@@ -95,6 +96,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 0,
+    "onClose": "{{resetWidget(\"Form1Copy\", true);}}",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,

@@ -69,6 +69,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{get_gemstones.data[get_Gemstoneproduct.data[Table1.triggeredRow.id].gemstone_id].price_per_stone}}",
+    "defaultText": "{{get_gemstones.data[(Select5.selectedOptionValue)-1].price_per_stone}}",
     "minDynamicHeight": 4
 }

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 500,
           "containerStyle": "none",
           "snapRows": 54,
           "parentRowSpace": 1,
@@ -188,16 +188,6 @@
           ],
           [
             {
-              "id": "Products_get_Gemstoneproduct",
-              "name": "get_Gemstoneproduct",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.triggeredRow.id"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Products_get_gemstoneshape",
               "name": "get_gemstoneshape",
               "confirmBeforeExecute": false,
@@ -229,6 +219,18 @@
               "jsonPathKeys": [
                 "Select3.selectedOptionLabel",
                 "Select2.selectedOptionLabel"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Products_get_Gemstoneproduct",
+              "name": "get_Gemstoneproduct",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.triggeredRow.id"
               ],
               "timeoutInMillisecond": 10000
             }

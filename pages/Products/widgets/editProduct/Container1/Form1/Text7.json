@@ -4,13 +4,13 @@
     "widgetName": "Text7",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 271,
+    "topRow": 262,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 275,
+    "bottomRow": 266,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -57,11 +57,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 270,
     "responsiveBehavior": "fill",
-    "originalTopRow": 271,
+    "originalTopRow": 262,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 275,
+    "originalBottomRow": 266,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

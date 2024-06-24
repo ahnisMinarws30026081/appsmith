@@ -7,7 +7,7 @@
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
     "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_Gemstoneproduct.data[0].gemstone_id))(Select3.options, Select3.serverSideFiltering) }}",
-    "animateLoading": true,
+    "animateLoading": false,
     "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
@@ -29,6 +29,7 @@
     },
     "isVisible": true,
     "version": 1,
+    "onDropdownOpen": "{{get_gemstonesizeedit.run()}}",
     "tags": [
         "Suggested",
         "Select"
@@ -47,7 +48,10 @@
     "hideCard": false,
     "mobileRightColumn": 46,
     "parentColumnSpace": 13.09375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "onOptionChange"},
+        {"key": "onDropdownOpen"}
+    ],
     "labelPosition": "Top",
     "sourceData": "{{get_gemstonecutedit.data}}",
     "key": "rw7kc0m449",
@@ -66,5 +70,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 26,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{get_gemstonesizeedit.run()}}",
     "minDynamicHeight": 4
 }

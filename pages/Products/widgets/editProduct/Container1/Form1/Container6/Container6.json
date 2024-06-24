@@ -7,13 +7,13 @@
     "isCanvas": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.dcc052e58db911c4c8955c200f4bcf5c.svg",
     "displayName": "Container",
-    "topRow": 173,
+    "topRow": 164,
     "searchTags": [
         "div",
         "parent",
         "group"
     ],
-    "bottomRow": 197,
+    "bottomRow": 188,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -98,10 +98,10 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 188,
     "responsiveBehavior": "fill",
-    "originalTopRow": 173,
+    "originalTopRow": 164,
     "borderRadius": "0px",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 197,
+    "originalBottomRow": 188,
     "minDynamicHeight": 10
 }

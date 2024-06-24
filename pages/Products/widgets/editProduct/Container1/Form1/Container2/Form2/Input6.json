@@ -25,7 +25,7 @@
         "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
     },
-    "showStepArrows": false,
+    "showStepArrows": true,
     "isVisible": true,
     "version": 2,
     "tags": [

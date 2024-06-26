@@ -1,73 +1,91 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "Labour Group",
-    "topRow": 188,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": true,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Table1.triggeredRow.labour_id))(Select9.options, Select9.serverSideFiltering) }}",
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
-    ],
-    "placeholderText": "Select option",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 195,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Table1.triggeredRow.labour_id))(Select9.options, Select9.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
     },
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 195,
-    "needsErrorInfo": false,
-    "mobileBottomRow": 218,
-    "widgetName": "Select9",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 195,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 7,
-    "parentColumnSpace": 13.71875,
-    "dynamicTriggerPathList": [{"key": "onFilterUpdate"}],
-    "labelPosition": "Top",
-    "sourceData": "{{Select_labours1.data}}",
-    "key": "2sdq33hmf7",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 31,
-    "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
-    "widgetId": "kw9eu32k6n",
-    "optionValue": "id",
-    "minWidth": 450,
-    "parentId": "qsmk6hxru1",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 212,
-    "optionLabel": "name",
-    "responsiveBehavior": "fill",
-    "originalTopRow": 188,
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "onFilterUpdate": "{{\n            Select_labours1.run();\n            \n          }}",
-    "minDynamicHeight": 4
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilterUpdate"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "2sdq33hmf7",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Labour Group",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 218,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 7,
+  "mobileTopRow": 212,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onFilterUpdate": "{{\n            Select_labours1.run();\n            \n          }}",
+  "optionLabel": "name",
+  "optionValue": "id",
+  "originalBottomRow": 195,
+  "originalTopRow": 188,
+  "parentColumnSpace": 13.71875,
+  "parentId": "qsmk6hxru1",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": true,
+  "sourceData": "{{Select_labours1.data}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 188,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "kw9eu32k6n",
+  "widgetName": "Select9"
 }

@@ -1,59 +1,73 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 294,
-    "widgetName": "Checkbox4",
-    "dynamicPropertyPathList": [{"key": "defaultCheckedState"}],
-    "displayName": "Checkbox",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
-    "searchTags": ["boolean"],
-    "topRow": 280,
-    "bottomRow": 284,
-    "parentRowSpace": 10,
-    "type": "CHECKBOX_WIDGET",
-    "alignWidget": "LEFT",
-    "hideCard": false,
-    "mobileRightColumn": 52,
-    "animateLoading": true,
-    "parentColumnSpace": 13.71875,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 26,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultCheckedState"}
-    ],
-    "labelPosition": "Left",
-    "isDisabled": false,
-    "key": "4glz2rlvcj",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 38,
-    "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "r12zblyyfd",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 284,
+  "defaultCheckedState": "{{Table1.triggeredRow.is_newarrival}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
     },
-    "minWidth": 450,
-    "isVisible": true,
-    "label": "Is New Arrival",
-    "version": 1,
-    "parentId": "qsmk6hxru1",
-    "tags": ["Toggles"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 290,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 280,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 40,
-    "defaultCheckedState": "{{Table1.triggeredRow.is_newarrival}}",
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 284,
-    "minDynamicHeight": 4
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "4glz2rlvcj",
+  "label": "Is New Arrival",
+  "labelPosition": "Left",
+  "leftColumn": 26,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 294,
+  "mobileLeftColumn": 40,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 290,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 284,
+  "originalTopRow": 280,
+  "parentColumnSpace": 13.71875,
+  "parentId": "qsmk6hxru1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 38,
+  "searchTags": [
+    "boolean"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
+  "topRow": 280,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "r12zblyyfd",
+  "widgetName": "Checkbox4"
 }

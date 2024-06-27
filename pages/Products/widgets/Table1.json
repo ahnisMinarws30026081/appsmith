@@ -179,9 +179,6 @@
       "key": "primaryColumns.stock.computedValue"
     },
     {
-      "key": "primaryColumns.photo.computedValue"
-    },
-    {
       "key": "primaryColumns.status.computedValue"
     },
     {
@@ -213,6 +210,9 @@
     },
     {
       "key": "primaryColumns.customColumn2.boxShadow"
+    },
+    {
+      "key": "primaryColumns.photo.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -415,7 +415,7 @@
       "label": "Action",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{showModal(editProduct.name).then(() => {\n  get_Attributeproduct.run();\n  get_Categoryproducts.run();\n  get_Gemstoneproduct.run();\n});\nget_Gemstoneproduct.run().then(() => {\n  get_gemstonecutedit.run();\n});\nget_gemstonecutedit.run().then(() => {\n  get_gemstonesizeedit.run();\n});\nget_gemstonesizeedit.run().then(() => {\n  get_gemstoneshapeedit.run();\n});\nget_gemstoneshapeedit.run().then(() => {\n  resetWidget(\"Input10\", true);\n});\nresetWidget(\"Form3\", true);}}",
+      "onClick": "{{showModal(editProduct.name).then(() => {\n  get_Attributeproduct.run();\n  get_Categoryproducts.run();\n});\nget_Gemstoneproduct.run().then(() => {\n  get_gemstonecutedit.run().then(() => {\n    await;\n    get_gemstonesize.run();\n  });\n});}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
@@ -994,7 +994,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "image",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"photo\"]))}}",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow.currentIndex))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,

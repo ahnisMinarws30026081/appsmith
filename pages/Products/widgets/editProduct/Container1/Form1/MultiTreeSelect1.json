@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 27,
   "boxShadow": "none",
-  "defaultOptionValue": "[{{(get_Categoryproducts.data[0].category_id)}},\"{{get_Categoryproducts.data[1].category_id}}\"]",
+  "defaultOptionValue": "[{{(get_Categoryproducts.data[0].category_id)}}]",
   "displayName": "Multi TreeSelect",
   "dynamicBindingPathList": [
     {
@@ -55,7 +55,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "options": "{{get_Categories.data.map( (obj) =>{ return  {'label': obj.name, 'value': obj.id } })}}",
-  "originalBottomRow": 28,
+  "originalBottomRow": 27,
   "originalTopRow": 20,
   "parentColumnSpace": 13.71875,
   "parentId": "qsmk6hxru1",

@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "665ff03890031b34850fab0e_e35c65a1-a0b3-4cad-a019-c1ea5b61ebf2",
-  "id": "Products_get_gemstonecutedit",
+  "gitSyncId": "665ff03890031b34850fab0e_0d721f1e-c488-4993-9030-e188be9432c3",
+  "id": "Products_update_gemstone_products",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT name, cut, id FROM gemstones WHERE name={{Select2.selectedOptionLabel}};",
+      "body": "UPDATE gemstone_product\nSET gemstone_id={{Select5.selectedOptionValue}},\nstone_price={{Form3.data.Input12}},\nstone_profit_percent={{Form3.data.Input13}},\nno_of_stones={{Form3.data.Input11}},\ntotal_stone_price={{Form3.data.Input14}}\nWHERE product_id={{Table1.triggeredRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
-    "name": "get_gemstonecutedit",
+    "executeOnLoad": false,
+    "name": "update_gemstone_products",
     "pageId": "Products",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }

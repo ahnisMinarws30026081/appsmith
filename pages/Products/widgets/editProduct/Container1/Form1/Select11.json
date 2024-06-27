@@ -17,7 +17,7 @@
       "key": "defaultOptionValue"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
@@ -28,7 +28,7 @@
   "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
   "isDeprecated": false,
   "isDisabled": false,
-  "isFilterable": true,
+  "isFilterable": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
@@ -69,6 +69,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
+  "shouldScrollContents": true,
   "sourceData": "[\n  {\n    \"label\": \"Active\",\n    \"value\": \"active\"\n  },\n  {\n    \"label\": \"Inactive\",\n    \"value\": \"inactive\"\n  }\n]",
   "tags": [
     "Suggested",

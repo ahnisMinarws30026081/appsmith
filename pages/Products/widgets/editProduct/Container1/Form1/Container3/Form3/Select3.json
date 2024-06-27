@@ -1,6 +1,6 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "animateLoading": false,
+  "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 12,
   "boxShadow": "none",
@@ -64,7 +64,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onDropdownOpen": "{{get_gemstonesizeedit.run()}}",
+  "onDropdownOpen": "{{get_gemstonecutedit.run()}}",
   "onOptionChange": "{{get_gemstonesizeedit.run()}}",
   "optionLabel": "cut",
   "optionValue": "id",

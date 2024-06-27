@@ -67,7 +67,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onDropdownOpen": "{{get_gemstonecutedit.run()}}",
+  "onDropdownOpen": "{{get_Gemstoneproduct.run()}}",
   "onFilterUpdate": "{{\n            get_Gemstoneproduct.run();\n            \n          }}",
   "onOptionChange": "{{get_gemstonecutedit.run()}}",
   "optionLabel": "name",

@@ -1,5 +1,9 @@
 {
-  "allowedFileTypes": [],
+  "allowedFileTypes": [
+    "image/*",
+    ".png",
+    "image/jpeg"
+  ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 280,
@@ -14,6 +18,7 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [],
   "dynamicTyping": true,
   "fileDataType": "Base64",
   "files": [],

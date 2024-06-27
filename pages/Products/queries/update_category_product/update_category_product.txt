@@ -1,0 +1,3 @@
+UPDATE category_product
+SET category_id={{MultiTreeSelect1.selectedOptionValues}},
+WHERE product_id={{Table1.triggeredRow.id}};

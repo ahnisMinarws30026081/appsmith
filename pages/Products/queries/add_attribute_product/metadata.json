@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "665ff03890031b34850fab0e_e35c65a1-a0b3-4cad-a019-c1ea5b61ebf2",
-  "id": "Products_get_gemstonecutedit",
+  "gitSyncId": "665ff03890031b34850fab0e_81f5ecd1-5da1-40d0-8609-9cb19fe03492",
+  "id": "Products_add_attribute_product",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT name, cut, id FROM gemstones WHERE name={{Select2.selectedOptionLabel}};",
+      "body": "INSERT INTO attribute_product (attribute_id,attribute_value,product_id)\nVALUES ({{Select7Copy.selectedOptionValue}},{{Form5Copy.data.Input30Copy}});",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
-    "name": "get_gemstonecutedit",
+    "executeOnLoad": false,
+    "name": "add_attribute_product",
     "pageId": "Products",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }

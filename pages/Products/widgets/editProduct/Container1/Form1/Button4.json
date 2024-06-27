@@ -39,7 +39,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{update_products.run().then(() => {\n  get_Products.run();\n  closeModal(editProduct.name);\n});}}",
+  "onClick": "{{update_products.run().then(() => {});\nupdate_attribute_product.run();\nupdate_category_product.run();\nupdate_gemstone_products.run().then(() => {\n  get_Products.run();\n  closeModal(editProduct.name);\n});}}",
   "originalBottomRow": 284,
   "originalTopRow": 280,
   "parentColumnSpace": 13.71875,

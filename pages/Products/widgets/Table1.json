@@ -415,7 +415,7 @@
       "label": "Action",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{showModal(editProduct.name).then(() => {\n  get_Attributeproduct.run();\n  get_Categoryproducts.run();\n});\nget_Gemstoneproduct.run().then(() => {\n  get_gemstonecutedit.run().then(() => {\n    await;\n    get_gemstonesize.run();\n  });\n});}}",
+      "onClick": "{{showModal(editProduct.name).then(() => {\n  get_Attributeproduct.run();\n  get_Categoryproducts.run();\n});\nget_Gemstoneproduct.run().then(() => {\n  JSObject3.myFun2();\n});}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",

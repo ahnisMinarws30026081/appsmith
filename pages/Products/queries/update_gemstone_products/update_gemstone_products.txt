@@ -1,7 +1,0 @@
-UPDATE gemstone_product
-SET gemstone_id={{Select5.selectedOptionValue}},
-stone_price={{Form3.data.Input12}},
-stone_profit_percent={{Form3.data.Input13}},
-no_of_stones={{Form3.data.Input11}},
-total_stone_price={{Form3.data.Input14}}
-WHERE product_id={{Table1.triggeredRow.id}};

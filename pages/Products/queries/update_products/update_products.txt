@@ -30,3 +30,17 @@ accessories_id={{Select8.selectedOptionValue}},
 labour_id={{Select9.selectedOptionValue}},
 labour_cost={{Form1.data.Input20}}
 WHERE id = {{Table1.triggeredRow.id}};
+UPDATE attribute_product
+SET attribute_id={{Select7.selectedOptionValue}},
+attribute_value={{Form5.data.Input30}}
+WHERE product_id={{Table1.triggeredRow.id}};
+UPDATE category_product
+SET category_id={{MultiTreeSelect1.selectedOptionValues}},
+WHERE product_id={{Table1.triggeredRow.id}};
+UPDATE gemstone_product
+SET gemstone_id={{Select5.selectedOptionValue}},
+stone_price={{Form3.data.Input12}},
+stone_profit_percent={{Form3.data.Input13}},
+no_of_stones={{Form3.data.Input11}},
+total_stone_price={{Form3.data.Input14}}
+WHERE product_id={{Table1.triggeredRow.id}};

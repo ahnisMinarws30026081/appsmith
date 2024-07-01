@@ -1,4 +1,0 @@
-UPDATE attribute_product
-SET attribute_id={{Select7.selectedOptionValue}},
-attribute_value={{Form5.data.Input30}}
-WHERE product_id={{Table1.triggeredRow.id}};

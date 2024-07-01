@@ -396,6 +396,7 @@
       "allowSameOptionsInNewRow": true,
       "buttonColor": "{{Categories.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "buttonStyle": "rgb(3, 179, 101)",
+      "buttonVariant": "TERTIARY",
       "columnType": "iconButton",
       "computedValue": "",
       "configureMenuItems": {
@@ -447,6 +448,7 @@
       "boxShadow": "{{Categories.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
       "buttonColor": "#ef4444",
       "buttonStyle": "rgb(3, 179, 101)",
+      "buttonVariant": "TERTIARY",
       "columnType": "iconButton",
       "computedValue": "",
       "currencyCode": "USD",

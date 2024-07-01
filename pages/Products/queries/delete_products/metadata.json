@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "665ff03890031b34850fab0e_81f5ecd1-5da1-40d0-8609-9cb19fe03492",
-  "id": "Products_add_attribute_product",
+  "gitSyncId": "665ff03890031b34850fab0e_7dc30687-05e4-476e-b082-c129c7ed7565",
+  "id": "Products_delete_products",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO attribute_product (attribute_id,attribute_value,product_id)\nVALUES ({{Select7Copy.selectedOptionValue}},{{Form5Copy.data.Input30Copy}});",
+      "body": "DELETE FROM attribute_product WHERE product_id={{Table1.triggeredRow.id}};\nDELETE FROM category_product WHERE product_id={{Table1.triggeredRow.id}};\nDELETE FROM gemstone_product WHERE product_id={{Table1.triggeredRow.id}};\nDELETE FROM products WHERE id={{Table1.triggeredRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "add_attribute_product",
+    "name": "delete_products",
     "pageId": "Products",
     "userSetOnLoad": false
   }

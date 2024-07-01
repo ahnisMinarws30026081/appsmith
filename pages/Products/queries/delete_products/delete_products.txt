@@ -1,0 +1,4 @@
+DELETE FROM attribute_product WHERE product_id={{Table1.triggeredRow.id}};
+DELETE FROM category_product WHERE product_id={{Table1.triggeredRow.id}};
+DELETE FROM gemstone_product WHERE product_id={{Table1.triggeredRow.id}};
+DELETE FROM products WHERE id={{Table1.triggeredRow.id}};

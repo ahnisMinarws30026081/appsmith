@@ -1,2 +1,0 @@
-INSERT INTO attribute_product (attribute_id,attribute_value,product_id)
-VALUES ({{Select7Copy.selectedOptionValue}},{{Form5Copy.data.Input30Copy}});

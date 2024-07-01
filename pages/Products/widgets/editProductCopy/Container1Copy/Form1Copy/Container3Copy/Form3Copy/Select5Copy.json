@@ -76,7 +76,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{get_gemstoneshape.data.map( (obj) =>{ return  {'label': obj.shape, 'value': obj.cut } })}}",
+  "sourceData": "{{get_gemstoneshape.data.map( (obj) =>{ return  {'label': obj.shape, 'value': obj.id } })}}",
   "tags": [
     "Suggested",
     "Select"

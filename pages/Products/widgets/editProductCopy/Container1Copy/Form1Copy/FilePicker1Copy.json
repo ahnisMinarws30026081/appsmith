@@ -28,7 +28,7 @@
   "isDeprecated": false,
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "7z8phx5bhu",
   "label": "Select Files",

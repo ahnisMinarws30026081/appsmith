@@ -27,8 +27,8 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "raj1fh677a",
-  "leftColumn": 58,
+  "key": "h9jk3tk8d6",
+  "leftColumn": 57,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 58,
@@ -42,8 +42,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{closeModal(EditAttribute.name).then(() => {\n  resetWidget(\"Form1\", true);\n});}}",
-  "parentId": "us2ucr0d23",
+  "onClick": "{{closeModal(Modal1.name).then(() => {});}}",
+  "parentId": "p9p6wfxmjy",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 64,
@@ -58,6 +58,6 @@
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "6kl5wn8p8k",
-  "widgetName": "IconButton1"
+  "widgetId": "f5q7tzrti5",
+  "widgetName": "IconButton2"
 }

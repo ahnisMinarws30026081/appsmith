@@ -27,7 +27,7 @@
   "isRequired": true,
   "isVisible": true,
   "key": "xufla7oeq7",
-  "label": "Jewel Gross Weight (grms)",
+  "label": "Jewel Gross Weight (grms) *",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",

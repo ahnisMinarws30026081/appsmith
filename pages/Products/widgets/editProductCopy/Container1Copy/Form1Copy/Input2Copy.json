@@ -27,7 +27,7 @@
   "isRequired": true,
   "isVisible": true,
   "key": "v7c46gtcyh",
-  "label": "Product Name",
+  "label": "Product Name *",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",

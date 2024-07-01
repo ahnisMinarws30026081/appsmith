@@ -27,7 +27,7 @@
   "isRequired": true,
   "isVisible": true,
   "key": "xufla7oeq7",
-  "label": "Miscellaneous Cost (INR)",
+  "label": "Miscellaneous Cost (INR) *",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",

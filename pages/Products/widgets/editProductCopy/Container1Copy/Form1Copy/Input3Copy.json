@@ -27,7 +27,7 @@
   "isRequired": true,
   "isVisible": true,
   "key": "v7c46gtcyh",
-  "label": "Product Slug",
+  "label": "Product Slug *",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",

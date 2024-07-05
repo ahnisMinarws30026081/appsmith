@@ -30,7 +30,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "v7c46gtcyh",
-  "label": "Product Sequence",
+  "label": "Product Sequence *",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -71,6 +71,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
+  "tooltip": "Required",
   "topRow": 20,
   "type": "INPUT_WIDGET_V2",
   "version": 2,

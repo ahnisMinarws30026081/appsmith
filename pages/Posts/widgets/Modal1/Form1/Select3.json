@@ -37,6 +37,7 @@
   "labelPosition": "Top",
   "labelText": "Status *",
   "labelTextSize": "0.875rem",
+  "labelTooltip": "Required",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,

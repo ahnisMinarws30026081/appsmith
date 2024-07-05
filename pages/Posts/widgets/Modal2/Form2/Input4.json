@@ -16,6 +16,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconAlign": "left",
@@ -69,6 +70,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
+  "tooltip": "Required",
   "topRow": 5,
   "type": "INPUT_WIDGET_V2",
   "version": 2,

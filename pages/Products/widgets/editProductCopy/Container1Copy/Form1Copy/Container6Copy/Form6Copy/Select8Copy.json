@@ -41,6 +41,7 @@
   "labelPosition": "Top",
   "labelText": "Accessory Name * ",
   "labelTextSize": "0.875rem",
+  "labelTooltip": "Required",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,

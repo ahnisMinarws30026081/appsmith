@@ -28,7 +28,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "eg0b59fz98",
-  "leftColumn": 58,
+  "leftColumn": 59,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 58,
@@ -42,8 +42,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{closeModal(createSetting.name).then(() => {\n  resetWidget(\"createForm\", true);\n});}}",
-  "parentId": "0uq1fv2q11",
+  "onClick": "{{closeModal(editCurrency.name).then(() => {\n  resetWidget(\"editForm\", true);\n});}}",
+  "parentId": "plvnd3eml9",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 64,
@@ -58,6 +58,6 @@
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ujh6hfbjzy",
-  "widgetName": "IconButton1"
+  "widgetId": "rkezkerebn",
+  "widgetName": "IconButton2"
 }

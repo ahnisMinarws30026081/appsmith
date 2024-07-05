@@ -6,7 +6,7 @@
   ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 68,
+  "bottomRow": 75,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "displayName": "FilePicker",
@@ -48,8 +48,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 75,
-  "originalTopRow": 71,
+  "originalBottomRow": 68,
+  "originalTopRow": 64,
   "parentColumnSpace": 12.661735534667969,
   "parentId": "9jmuxc72ia",
   "parentRowSpace": 10,
@@ -64,7 +64,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.164363adea04c44e54b1fd47657a579e.svg",
-  "topRow": 64,
+  "topRow": 71,
   "type": "FILE_PICKER_WIDGET_V2",
   "version": 1,
   "widgetId": "wdg37qjq8g",

@@ -30,7 +30,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "xufla7oeq7",
-  "label": "Page Keywords",
+  "label": "Page Keywords *",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -74,6 +74,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
+  "tooltip": "Required",
   "topRow": 218,
   "type": "INPUT_WIDGET_V2",
   "version": 2,

@@ -43,6 +43,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{update_Gemstones.run().then(() => {\n  get_Gemstones.run();\n  closeModal(Modal1.name);\n});}}",
+  "originalBottomRow": 46,
+  "originalTopRow": 42,
   "parentId": "qxy6sdhiar",
   "placement": "CENTER",
   "recaptchaType": "V3",

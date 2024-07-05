@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 49,
+  "bottomRow": 56,
   "boxShadow": "none",
   "defaultText": "{{Categories.triggeredRow.page_keyword}}",
   "displayName": "Input",
@@ -52,7 +52,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 56,
+  "originalBottomRow": 49,
   "originalTopRow": 39,
   "parentColumnSpace": 12.661735534667969,
   "parentId": "9jmuxc72ia",

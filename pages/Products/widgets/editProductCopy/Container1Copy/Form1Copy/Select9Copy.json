@@ -21,6 +21,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -35,12 +38,13 @@
   "isFilterable": false,
   "isLoading": false,
   "isRequired": true,
-  "isVisible": true,
+  "isVisible": "true",
   "key": "2sdq33hmf7",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Labour Group * ",
   "labelTextSize": "0.875rem",
+  "labelTooltip": "Required",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,

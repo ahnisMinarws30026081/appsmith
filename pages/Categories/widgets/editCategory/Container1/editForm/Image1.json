@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 72,
+  "bottomRow": 79,
   "boxShadow": "none",
   "defaultImage": "{{Categories.triggeredRow.image}}",
   "displayName": "Image",
@@ -40,8 +40,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 79,
-  "originalTopRow": 66,
+  "originalBottomRow": 72,
+  "originalTopRow": 59,
   "parentColumnSpace": 12.661735534667969,
   "parentId": "9jmuxc72ia",
   "parentRowSpace": 10,
@@ -51,7 +51,7 @@
     "Media"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.74089bb21dfcb5890f6b106f93c3b9c8.svg",
-  "topRow": 59,
+  "topRow": 66,
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "9pl8d4mpfx",

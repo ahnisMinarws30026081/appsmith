@@ -5,7 +5,7 @@
   "boxShadow": "none",
   "buttonColor": "#22c55e",
   "buttonVariant": "PRIMARY",
-  "disabledWhenInvalid": false,
+  "disabledWhenInvalid": true,
   "displayName": "Button",
   "dynamicBindingPathList": [
     {

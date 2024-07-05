@@ -42,8 +42,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{closeModal(editSetting.name).then(() => {\n  resetWidget(\"editForm\", true);\n});}}",
-  "parentId": "e6tgyu1o93",
+  "onClick": "{{closeModal(createSetting.name).then(() => {\n  resetWidget(\"createForm\", true);\n});}}",
+  "parentId": "h35wti4ndm",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 64,
@@ -58,6 +58,6 @@
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "326s446443",
-  "widgetName": "IconButton2"
+  "widgetId": "ujh6hfbjzy",
+  "widgetName": "IconButton1"
 }

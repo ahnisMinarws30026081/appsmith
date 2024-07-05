@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO tags (title,status)\nVALUES ({{createForm.data.Input2}},{{createForm.data.Select2}});",
+      "body": "INSERT INTO tags (title,slug,`status`)\nVALUES ({{createForm.data.Input2}},{{createForm.data.Input2}},{{createForm.data.Select2}});",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

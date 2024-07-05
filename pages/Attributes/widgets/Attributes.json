@@ -91,11 +91,7 @@
       "key": "primaryColumns.id.computedValue"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "tableData"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "primaryColumns.customColumn1.onClick"

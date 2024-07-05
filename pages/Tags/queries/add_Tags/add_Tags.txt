@@ -1,2 +1,2 @@
-INSERT INTO tags (title,status)
-VALUES ({{createForm.data.Input2}},{{createForm.data.Select2}});
+INSERT INTO tags (title,slug,`status`)
+VALUES ({{createForm.data.Input2}},{{createForm.data.Input2}},{{createForm.data.Select2}});

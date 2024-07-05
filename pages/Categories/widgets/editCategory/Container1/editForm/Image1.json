@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 79,
+  "bottomRow": 72,
   "boxShadow": "none",
   "defaultImage": "{{Categories.triggeredRow.image}}",
   "displayName": "Image",
@@ -51,7 +51,7 @@
     "Media"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.74089bb21dfcb5890f6b106f93c3b9c8.svg",
-  "topRow": 66,
+  "topRow": 59,
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "9pl8d4mpfx",

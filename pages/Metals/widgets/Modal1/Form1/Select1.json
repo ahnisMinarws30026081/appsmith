@@ -12,9 +12,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -30,12 +27,12 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "9iwupw7erv",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Status",
+  "labelText": "Status *",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
@@ -54,8 +51,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "optionLabel": "value",
-  "optionValue": "label",
+  "optionLabel": "label",
+  "optionValue": "value",
   "parentColumnSpace": 5.974609375,
   "parentId": "d7bpk7d6w2",
   "parentRowSpace": 10,
@@ -67,7 +64,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{get_Metals_Status.data.map( (obj) =>{ return  {'label': obj.status, 'value': obj.status } })}}",
+  "sourceData": "[\n  {\n    \"label\": \"Active\",\n    \"value\": \"active\"\n  },\n  {\n    \"label\": \"Inactive\",\n    \"value\": \"inactive\"\n  }\n]",
   "tags": [
     "Suggested",
     "Select"

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 56,
+  "bottomRow": 49,
   "boxShadow": "none",
   "defaultText": "{{Categories.triggeredRow.page_keyword}}",
   "displayName": "Input",

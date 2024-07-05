@@ -29,6 +29,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Description *",
+  "labelTooltip": "",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,

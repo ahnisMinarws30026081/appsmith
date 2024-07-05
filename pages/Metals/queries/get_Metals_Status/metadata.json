@@ -23,7 +23,7 @@
       "pluginId": "mysql-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "get_Metals_Status",
     "pageId": "Metals",
     "userSetOnLoad": false

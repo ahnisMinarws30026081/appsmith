@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE tags \nSET title={{Form1.data.Input1}},\nstatus={{Form1.data.Select1}}\nWHERE id={{Table1.triggeredRow.id}};",
+      "body": "UPDATE tags \nSET title={{Form1.data.Input1}},\nslug = {{Form1.data.Input1}},\n`status`={{Form1.data.Select1}}\nWHERE id={{Table1.triggeredRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

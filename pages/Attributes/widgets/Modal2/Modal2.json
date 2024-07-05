@@ -1,14 +1,14 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 89,
+  "bottomRow": 41,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 890,
+      "bottomRow": 410,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -28,11 +28,11 @@
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "wyjjgzts32",
+      "key": "uq95mg0jz1",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 430,
+      "minHeight": 0,
       "minWidth": 450,
       "mobileBottomRow": 0,
       "mobileLeftColumn": 0,
@@ -47,7 +47,7 @@
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
       },
       "parentColumnSpace": 1,
-      "parentId": "0u55kdik71",
+      "parentId": "oo9lbmwntc",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -56,8 +56,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "hwm8dt6wls",
-      "widgetName": "Canvas1"
+      "widgetId": "0zyljkj73d",
+      "widgetName": "Canvas5"
     }
   ],
   "detachFromLayout": true,
@@ -68,17 +68,17 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "height": 890,
+  "height": 410,
   "hideCard": false,
-  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.4b2718a4b16cd370332555ef28633b8d.svg",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.47fe8500526372db96cb58a82187ffeb.svg",
   "isCanvas": true,
   "isDeprecated": false,
   "isLoading": false,
-  "key": "0oa9i17vpd",
+  "key": "hgwzum5tqy",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 24,
-  "minHeight": 890,
+  "minHeight": 410,
   "mobileBottomRow": 0,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 0,
@@ -109,7 +109,7 @@
   "topRow": 0,
   "type": "MODAL_WIDGET",
   "version": 2,
-  "widgetId": "0u55kdik71",
-  "widgetName": "editCategory",
-  "width": 918
+  "widgetId": "oo9lbmwntc",
+  "widgetName": "Modal2",
+  "width": 456
 }

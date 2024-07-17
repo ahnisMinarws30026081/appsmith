@@ -1,5 +1,6 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -53,8 +54,8 @@
     "avg_weight",
     "net_weight",
     "product_price",
-    "product_sell_price",
     "miscellaneous",
+    "product_sell_price",
     "stock",
     "photo",
     "status",
@@ -66,7 +67,7 @@
     "customColumn1",
     "customColumn2"
   ],
-  "columnUpdatedAt": 1718261206995,
+  "columnUpdatedAt": 1720766665031,
   "columnWidthMap": {
     "avg_weight": 206,
     "customColumn1": 92,
@@ -74,6 +75,7 @@
     "metal_cost": 178,
     "metal_profit_percent": 164,
     "metal_weight": 187,
+    "miscellaneous": 224,
     "name": 366,
     "net_weight": 179,
     "product_note": 240,
@@ -226,6 +228,9 @@
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "primaryColumns.photo.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -259,6 +264,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "originalBottomRow": 47,
+  "originalTopRow": 6,
   "parentColumnSpace": 17.9375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -829,8 +836,8 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
-      "label": "miscellaneous",
+      "isVisible": true,
+      "label": "Miscellaneous Costs (INR)",
       "notation": "standard",
       "originalId": "miscellaneous",
       "sticky": "",
@@ -1005,8 +1012,9 @@
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
-      "horizontalAlignment": "CENTER",
+      "horizontalAlignment": "LEFT",
       "id": "photo",
+      "imageSize": "MEDIUM",
       "index": 25,
       "isCellEditable": false,
       "isCellVisible": true,
@@ -1018,6 +1026,7 @@
       "isVisible": true,
       "label": "Photo",
       "notation": "standard",
+      "onClick": "",
       "originalId": "photo",
       "sticky": "",
       "textSize": "0.875rem",
@@ -1341,6 +1350,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "showInlineEditingOptionDropdown": true,
   "tableData": "{{get_Products.data}}",
   "tags": [
     "Suggested",

@@ -62,6 +62,10 @@
       "isDefault": false
     },
     {
+      "id": "Add Products",
+      "isDefault": false
+    },
+    {
       "id": "Coupon",
       "isDefault": false
     },
@@ -75,6 +79,10 @@
     },
     {
       "id": "Posts",
+      "isDefault": false
+    },
+    {
+      "id": "Orders",
       "isDefault": false
     }
   ],

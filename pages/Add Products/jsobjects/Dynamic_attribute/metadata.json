@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "665ff03890031b34850fab0e_e1211a1a-45c4-4f51-955d-58cb0fe44a97",
+  "id": "Add Products_Dynamic_attribute",
+  "unpublishedCollection": {
+    "name": "Dynamic_attribute",
+    "pageId": "Add Products",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

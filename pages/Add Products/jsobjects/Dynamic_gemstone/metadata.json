@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "665ff03890031b34850fab0e_f38261f9-9abf-4448-bfae-a343e1093e0e",
+  "id": "Add Products_Dynamic_gemstone",
+  "unpublishedCollection": {
+    "name": "Dynamic_gemstone",
+    "pageId": "Add Products",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

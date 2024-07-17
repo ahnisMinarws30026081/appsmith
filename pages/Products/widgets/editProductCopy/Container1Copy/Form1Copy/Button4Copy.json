@@ -39,7 +39,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{add_products.run().then(() => {\n  get_Products.run();\n  closeModal(editProductCopy.name);\n});}}",
+  "onClick": "{{JSObject1.myFun1();}}",
   "originalBottomRow": 284,
   "originalTopRow": 280,
   "parentColumnSpace": 13.71875,

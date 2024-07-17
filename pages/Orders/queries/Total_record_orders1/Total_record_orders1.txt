@@ -1,0 +1,1 @@
+SELECT COUNT(*) from orders WHERE order_number LIKE '%{{Table1.searchText}}%';

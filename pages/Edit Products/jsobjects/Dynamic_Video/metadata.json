@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "665ff03890031b34850fab0e_42f991e3-9fed-43f4-8a34-2745220cf8fb",
+  "id": "Edit Products_Dynamic_Video",
+  "unpublishedCollection": {
+    "name": "Dynamic_Video",
+    "pageId": "Edit Products",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

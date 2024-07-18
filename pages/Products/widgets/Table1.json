@@ -426,7 +426,7 @@
       "label": "Action",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{showModal(editProduct.name).then(() => {\n  get_Attributeproduct.run();\n  get_Categoryproducts.run();\n});\nget_Gemstoneproduct.run().then(() => {\n  edit_gemstone_script.myFun2();\n});}}",
+      "onClick": "{{Store_values.storeInput();}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",

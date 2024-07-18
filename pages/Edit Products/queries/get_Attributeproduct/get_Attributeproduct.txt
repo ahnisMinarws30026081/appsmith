@@ -1,0 +1,1 @@
+SELECT * FROM attribute_product WHERE product_id={{appsmith.store.productid}};

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "665ff03890031b34850fab0e_39ff57cd-a430-47d6-85be-afa49d37793d",
+  "id": "Edit Products_edit_gemstone_script",
+  "unpublishedCollection": {
+    "name": "edit_gemstone_script",
+    "pageId": "Edit Products",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

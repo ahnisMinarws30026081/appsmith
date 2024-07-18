@@ -1,0 +1,77 @@
+export default {
+	showInput: () =>{
+	if(appsmith.store.stone2Visible==true){
+		if(appsmith.store.stone3Visible==true){
+			if(appsmith.store.stone4Visible==true){
+				if(appsmith.store.stone5Visible==true){
+					if(appsmith.store.stone6Visible==true){
+						if(appsmith.store.stone7Visible==true){
+							if(appsmith.store.stone8Visible==true){
+								if(appsmith.store.stone9Visible==true){
+									if(appsmith.store.stone10Visible==true){
+										showAlert("Maximum Number of Stone Settings");
+									}
+									else{
+										storeValue("stone10Visible",true);
+									}
+								}
+								else{
+									storeValue("stone9Visible",true);
+								}
+							}
+							else{
+								storeValue("stone8Visible",true);
+							}
+						}
+						else{
+							storeValue("stone7Visible",true);
+						}
+					}
+					else{
+						storeValue("stone6Visible",true);
+					}
+				}
+				else{
+					storeValue("stone5Visible",true);
+				}
+			}
+			else{
+				storeValue("stone4Visible",true);
+			}
+		}
+		else{
+			storeValue("stone3Visible",true);
+		}
+	}
+		else{
+			storeValue("stone2Visible",true);
+		}
+},
+	hideInput2:()=>{
+		storeValue("stone2Visible",false);
+	}	,
+	hideInput3:()=>{
+		storeValue("stone3Visible",false);
+	},
+	hideInput4:()=>{
+		storeValue("stone4Visible",false);
+	},
+	hideInput5:()=>{
+		storeValue("stone5Visible",false);
+	},
+	hideInput6:()=>{
+		storeValue("stone6Visible",false);
+	},
+	hideInput7:()=>{
+		storeValue("stone7Visible",false);
+	},
+	hideInput8:()=>{
+		storeValue("stone8Visible",false);
+	},
+	hideInput9:()=>{
+		storeValue("stone9Visible",false);
+	},
+	hideInput10:()=>{
+		storeValue("stone10Visible",false);
+	}
+}

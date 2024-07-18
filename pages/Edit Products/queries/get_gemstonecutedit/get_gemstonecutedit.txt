@@ -1,0 +1,1 @@
+SELECT DISTINCT name, cut, id FROM gemstones WHERE name={{gemstonename.selectedOptionLabel}};

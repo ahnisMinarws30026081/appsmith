@@ -66,6 +66,10 @@
       "isDefault": false
     },
     {
+      "id": "Edit Products",
+      "isDefault": false
+    },
+    {
       "id": "Coupon",
       "isDefault": false
     },

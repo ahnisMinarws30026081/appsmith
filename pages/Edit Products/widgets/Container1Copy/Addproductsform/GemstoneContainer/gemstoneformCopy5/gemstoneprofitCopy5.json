@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 36,
   "boxShadow": "none",
-  "defaultText": "0",
+  "defaultText": "{{appsmith.store.gemstoneprofit7}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {
@@ -13,6 +13,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",

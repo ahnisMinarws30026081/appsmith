@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 44,
   "boxShadow": "none",
-  "defaultText": "{{(gemstoneprice.text)*(1+(gemstoneprofit.text/100))}}",
+  "defaultText": "{{(gemstonepriceCopy3.text)*(1+(gemstoneprofitCopy3.text/100))}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

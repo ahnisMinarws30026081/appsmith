@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "get_gemstonesize",
     "pageId": "Edit Products",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

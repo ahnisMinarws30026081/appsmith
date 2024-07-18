@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 44,
   "boxShadow": "none",
-  "defaultText": "{{(gemstoneprice.text)*(1+(gemstoneprofit.text/100))}}",
+  "defaultText": "{{(gemstonepriceCopy8.text)*(1+(gemstoneprofitCopy8.text/100))}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {
@@ -52,6 +52,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "originalBottomRow": 66,
+  "originalTopRow": 59,
   "parentColumnSpace": 13.09375,
   "parentId": "s6x4ioqxxy",
   "parentRowSpace": 10,

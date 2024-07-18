@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 28,
   "boxShadow": "none",
-  "defaultText": "0",
+  "defaultText": "{{appsmith.store.numberofstones7}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {
@@ -13,6 +13,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",

@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "get_gemstoneprice",
     "pageId": "Edit Products",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

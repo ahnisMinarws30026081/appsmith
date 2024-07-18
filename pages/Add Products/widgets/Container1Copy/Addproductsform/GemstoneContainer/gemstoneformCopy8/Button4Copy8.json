@@ -41,6 +41,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{Dynamic_gemstone.hideInput10();}}",
+  "originalBottomRow": 63,
+  "originalTopRow": 59,
   "parentColumnSpace": 11.984375,
   "parentId": "s6x4ioqxxy",
   "parentRowSpace": 10,

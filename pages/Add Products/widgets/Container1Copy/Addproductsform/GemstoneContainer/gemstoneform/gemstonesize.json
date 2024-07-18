@@ -62,8 +62,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onDropdownOpen": "",
-  "onOptionChange": "{{get_gemstoneshape.run();\nresetWidget(\"Select5Copy\", true);}}",
+  "onDropdownOpen": "{{get_gemstonesize.run()}}",
+  "onOptionChange": "{{get_gemstoneshape.run().then(() => {\n  resetWidget(\"gemstoneshape\", true);\n});}}",
   "optionLabel": "size",
   "optionValue": "size",
   "parentColumnSpace": 13.09375,

@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "get_gemstonecutedit2",
     "pageId": "Edit Products",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

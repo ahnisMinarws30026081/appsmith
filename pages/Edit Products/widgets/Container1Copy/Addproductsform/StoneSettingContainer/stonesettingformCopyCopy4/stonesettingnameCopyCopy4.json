@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 12,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( 1))(stonesettingnameCopyCopy4.options, stonesettingnameCopyCopy4.serverSideFiltering) }}",
+  "defaultOptionValue": "",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -15,9 +15,6 @@
     },
     {
       "key": "sourceData"
-    },
-    {
-      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -33,7 +30,7 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "rw7kc0m449",
   "labelAlignment": "left",

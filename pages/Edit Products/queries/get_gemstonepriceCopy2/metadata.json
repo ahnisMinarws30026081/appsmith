@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "get_gemstonepriceCopy2",
     "pageId": "Edit Products",
     "userSetOnLoad": true

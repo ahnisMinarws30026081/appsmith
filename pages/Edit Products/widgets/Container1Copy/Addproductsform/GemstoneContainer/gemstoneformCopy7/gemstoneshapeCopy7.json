@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 20,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_Gemstoneproduct.data[8].gemstone_id))(gemstoneshapeCopy7.options, gemstoneshapeCopy7.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -15,6 +15,9 @@
     },
     {
       "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -37,7 +40,7 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "rw7kc0m449",
   "labelAlignment": "left",
@@ -62,8 +65,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onDropdownOpen": "",
-  "onOptionChange": "{{get_gemstoneprice.run().then(() => {\n  resetWidget(\"Input10Copy\", true);\n});}}",
+  "onDropdownOpen": "{{get_gemstoneshapeCopy7.run()}}",
+  "onOptionChange": "{{get_gemstonepriceCopy7.run().then(() => {\n  resetWidget(\"gemstonepriceperstoneCopy7\", true);\n});}}",
   "optionLabel": "label",
   "optionValue": "value",
   "parentColumnSpace": 13.09375,
@@ -77,7 +80,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{get_gemstoneshape.data.map( (obj) =>{ return  {'label': obj.shape, 'value': obj.id } })}}",
+  "sourceData": "{{get_gemstoneshapeCopy7.data.map( (obj) =>{ return  {'label': obj.shape, 'value': obj.id } })}}",
   "tags": [
     "Suggested",
     "Select"

@@ -6,7 +6,7 @@
   "bottomRow": 1191,
   "bottomRowBeforeCollapse": 1191,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{JSObject1.parseURLs()[1]}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {
@@ -17,6 +17,9 @@
     },
     {
       "key": "isVisible"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -58,8 +61,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 1208,
-  "originalTopRow": 1201,
+  "originalBottomRow": 1191,
+  "originalTopRow": 1184,
   "parentColumnSpace": 13.71875,
   "parentId": "i575r4jky8",
   "parentRowSpace": 10,

@@ -49,8 +49,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{Dynamic_Video.hideInput6();}}",
-  "originalBottomRow": 1240,
-  "originalTopRow": 1236,
+  "originalBottomRow": 1223,
+  "originalTopRow": 1219,
   "parentColumnSpace": 12.609375,
   "parentId": "i575r4jky8",
   "parentRowSpace": 10,

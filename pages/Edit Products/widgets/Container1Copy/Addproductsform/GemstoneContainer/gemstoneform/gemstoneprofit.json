@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 36,
   "boxShadow": "none",
-  "defaultText": "{{get_Gemstoneproduct.data[0].stone_profit_percent}}",
+  "defaultText": "{{appsmith.store.gemstoneprofit1}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

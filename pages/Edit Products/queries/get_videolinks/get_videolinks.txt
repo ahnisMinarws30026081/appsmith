@@ -1,0 +1,1 @@
+SELECT video_links,id FROM products WHERE id={{appsmith.store.productid}} ; 

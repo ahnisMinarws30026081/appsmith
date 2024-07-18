@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 1205,
+  "bottomRow": 1204,
   "boxShadow": "none",
   "buttonColor": "#22c55e",
   "buttonVariant": "PRIMARY",
@@ -40,8 +40,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{numberofstonesdefault.myFun1();}}",
-  "originalBottomRow": 1221,
-  "originalTopRow": 1217,
+  "originalBottomRow": 1204,
+  "originalTopRow": 1200,
   "parentColumnSpace": 13.71875,
   "parentId": "i575r4jky8",
   "parentRowSpace": 10,
@@ -60,7 +60,7 @@
   ],
   "text": "Submit",
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
-  "topRow": 1201,
+  "topRow": 1200,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "sel4sl0fka",

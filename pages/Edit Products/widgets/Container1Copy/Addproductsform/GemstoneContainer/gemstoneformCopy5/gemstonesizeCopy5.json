@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 20,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_Gemstoneproduct.data[6].gemstone_id))(gemstonesizeCopy5.options, gemstonesizeCopy5.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -15,12 +15,18 @@
     },
     {
       "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [
@@ -37,7 +43,7 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "rw7kc0m449",
   "labelAlignment": "left",
@@ -63,9 +69,9 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onDropdownOpen": "",
-  "onOptionChange": "{{get_gemstoneshape.run();\nresetWidget(\"Select5Copy\", true);}}",
+  "onOptionChange": "{{get_gemstoneshapeCopy5.run().then(() => {\n  resetWidget(\"gemstoneshapeCopy5\", true);\n});}}",
   "optionLabel": "size",
-  "optionValue": "size",
+  "optionValue": "id",
   "parentColumnSpace": 13.09375,
   "parentId": "vvs0j6f6tb",
   "parentRowSpace": 10,
@@ -77,7 +83,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{get_gemstonesize.data}}",
+  "sourceData": "{{get_gemstonesize7.data}}",
   "tags": [
     "Suggested",
     "Select"

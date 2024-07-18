@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 12,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_Gemstoneproduct.data[4].gemstone_id))(gemstonecutCopy3.options, gemstonecutCopy3.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -15,12 +15,18 @@
     },
     {
       "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [
@@ -37,7 +43,7 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "rw7kc0m449",
   "labelAlignment": "left",
@@ -63,9 +69,9 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onDropdownOpen": "",
-  "onOptionChange": "{{get_gemstonesize.run();\nresetWidget(\"Select4Copy\", true);}}",
+  "onOptionChange": "{{get_gemstonesize5.run().then(() => {\n  resetWidget(\"gemstonesizeCopy3\", true);\n});}}",
   "optionLabel": "cut",
-  "optionValue": "cut",
+  "optionValue": "id",
   "parentColumnSpace": 13.09375,
   "parentId": "76y14oznuu",
   "parentRowSpace": 10,
@@ -77,7 +83,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{get_gemstonecut.data}}",
+  "sourceData": "{{get_gemstonecutedit5.data}}",
   "tags": [
     "Suggested",
     "Select"

@@ -34,7 +34,7 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "2sdq33hmf7",
   "labelAlignment": "left",

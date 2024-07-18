@@ -1,0 +1,1 @@
+SELECT DISTINCT size, name , cut FROM gemstones WHERE name={{gemstonenameCopy3.selectedOptionValue}} && cut={{gemstonecutCopy3.selectedOptionValue}};

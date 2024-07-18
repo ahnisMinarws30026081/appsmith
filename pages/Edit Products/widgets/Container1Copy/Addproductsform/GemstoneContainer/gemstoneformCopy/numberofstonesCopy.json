@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 28,
   "boxShadow": "none",
-  "defaultText": "{{get_Gemstoneproduct.data[1].no_of_stones}}",
+  "defaultText": "{{appsmith.store.numberofstones2}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

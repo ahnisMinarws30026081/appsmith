@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 28,
   "boxShadow": "none",
-  "defaultText": "{{(get_Stonesetting.data[((stonesettingname.selectedOptionValue)-1)].price_per_stone)*(numberofstonessettings.text)}}",
+  "defaultText": "{{((get_Stonesetting.data[((stonesettingname.selectedOptionValue)-1)].price_per_stone)*(numberofstonessettings.text))?((get_Stonesetting.data[((stonesettingname.selectedOptionValue)-1)].price_per_stone)*(numberofstonessettings.text)):0}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

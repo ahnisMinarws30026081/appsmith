@@ -40,7 +40,7 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "rw7kc0m449",
   "labelAlignment": "left",
@@ -66,7 +66,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onDropdownOpen": "",
-  "onOptionChange": "{{get_gemstoneshape.run();\nresetWidget(\"Select5Copy\", true);}}",
+  "onOptionChange": "{{get_gemstoneshapeCopy.run().then(() => {\n  resetWidget(\"gemstoneshapeCopy\", true);\n});}}",
   "optionLabel": "size",
   "optionValue": "id",
   "parentColumnSpace": 13.09375,

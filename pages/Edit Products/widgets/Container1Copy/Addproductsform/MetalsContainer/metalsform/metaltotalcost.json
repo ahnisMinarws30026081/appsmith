@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 28,
   "boxShadow": "none",
-  "defaultText": "{{(metalprice.text)*(1+(metalprofit.text/100))}}",
+  "defaultText": "{{((metalprice.text)*(1+(metalprofit.text/100))).toFixed()}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

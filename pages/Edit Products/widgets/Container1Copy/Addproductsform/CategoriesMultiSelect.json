@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 28,
   "boxShadow": "none",
-  "defaultOptionValue": "[{{get_Categoryproducts.data[0].category_id}}]",
+  "defaultOptionValue": "[{{get_Categoryproducts.data[0].category_id}},{{get_Categoryproducts.data[1].category_id}}]",
   "displayName": "Multi TreeSelect",
   "dynamicBindingPathList": [
     {

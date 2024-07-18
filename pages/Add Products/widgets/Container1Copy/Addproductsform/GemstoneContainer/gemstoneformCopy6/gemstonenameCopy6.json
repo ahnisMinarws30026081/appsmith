@@ -37,7 +37,7 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "0kl2vf3kpt",
   "labelAlignment": "left",
@@ -63,7 +63,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onFilterUpdate": "",
-  "onOptionChange": "{{resetWidget(\"Select3Copy\", true);\nget_gemstonecut.run().then(() => {\n  resetWidget(\"Select4Copy\", true);\n  resetWidget(\"Select5Copy\", true);\n  resetWidget(\"Input10Copy\", true);\n});}}",
+  "onOptionChange": "{{get_gemstonecutCopy6.run().then(() => {\n  resetWidget(\"gemstonecutCopy6\", true);\n});}}",
   "optionLabel": "name",
   "optionValue": "name",
   "parentColumnSpace": 13.09375,

@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 36,
   "boxShadow": "none",
-  "defaultText": "{{(gemstonepriceperstone.text)*(numberofstones.text)}}",
+  "defaultText": "{{(gemstonepriceperstoneCopy8.text)*(numberofstonesCopy8.text)}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

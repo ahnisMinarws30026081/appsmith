@@ -39,7 +39,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{numberofstonesdefault.myFun1();}}",
+  "onClick": "{{update_products.run().then(() => {\n  navigateTo('Products', {}, 'SAME_WINDOW');\n});}}",
   "originalBottomRow": 1204,
   "originalTopRow": 1200,
   "parentColumnSpace": 13.71875,

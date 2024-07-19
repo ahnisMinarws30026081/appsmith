@@ -1,0 +1,46 @@
+UPDATE products
+SET `code`={{productcode.text}},
+name={{productname.text}},
+slug={{productslug.text}},
+stock={{productstock.text}},
+product_sequence={{poductsequence.text}},
+labour_id={{labourgroupname.selectedOptionValue}},
+description={{description.text}},
+page_title={{pagetitle.text}},
+page_keyword={{pagekeywords.text}},
+page_description={{pagedescription.text}},
+product_note={{productnote.text}},
+avg_weight={{jewelavgweight.text}},
+net_weight={{jewelgrossweight.text}},
+product_price={{costprice.text}},
+miscellaneous={{miscellaneouscost.text}},
+product_sell_price={{sellingprice.text}},
+photo={{imagepicker.files[0].data}},
+video_links=[{{videolinks1.text}},{{videolinks2.text}}]
+`status`={{status.selectedOptionValue}},
+is_bestseller={{isbestseller.valueOf()}},
+is_readytoship={{isreadytoship.valueOf()}},
+is_newarrival={{isnewarrival.valueOf()}},
+metal_id={{metalname.selectedOptionValue}},
+metal_weight={{metalweight.text}},
+metal_profit_percent={{metalprofit.text}},
+metal_cost={{metalprice.text}},
+total_metal_price={{metaltotalcost.text}},
+accessories_id={{accessoryname.selectedOptionValue}},
+labour_id={{labourgroupname.selectedOptionValue}},
+labour_cost={{labourcost.text}}
+WHERE id = {{appsmith.store.productid}};
+UPDATE attribute_product
+SET attribute_id={{attributename.selectedOptionValue}},
+attribute_value={{attributevalue.text}}
+WHERE product_id={{appsmith.store.productid}};
+UPDATE category_product
+SET category_id={{CategoriesMultiSelect.selectedOptionValues}},
+WHERE product_id={{appsmith.store.productid}};
+UPDATE gemstone_product
+SET gemstone_id={{gemstoneshape.selectedOptionValue}},
+stone_price={{gemstoneprice.text}},
+stone_profit_percent={{gemstoneprofit.text}},
+no_of_stones={{numberofstones.text}},
+total_stone_price={{totalgemstoneprice.text}}
+WHERE product_id={{appsmith.store.productid}};
